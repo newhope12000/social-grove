@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>소셜그로브 · Social Grove — 의미 있는 모임이 모여, 따뜻한 변화를 만든다</title>
+  <meta name="description" content="소셜그로브는 함께 손으로 무언가를 만들며 진짜 연결을 느끼는 참여형 소셜 플랫폼입니다. 작은 그로브가 모여 의미 있는 숲이 됩니다." />
+  <meta property="og:title" content="소셜그로브 · Social Grove" />
+  <meta property="og:description" content="작은 그로브가 모여 의미 있는 숲이 된다." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="index.html" aria-label="소셜그로브 홈">
+      <span class="nav__logo"><svg viewBox="0 0 64 64" width="34" height="34"><use href="#grove-mark"/></svg></span>
+      <span class="nav__name"><strong>Social Grove</strong><em>소셜그로브</em></span>
+    </a>
+    <nav class="nav__menu" id="navMenu" aria-label="주요 메뉴">
+      <a href="about.html">About us</a>
+      <a href="vision.html">비전</a>
+      <a href="values.html">가치</a>
+      <a href="programs.html">프로그램</a>
+      <a href="archive.html">아카이브</a>
+      <a href="index.html#join" class="btn btn--pill nav__cta-m">모임 참여하기</a>
+    </nav>
+    <a href="index.html#join" class="btn btn--pill nav__cta">모임 참여하기</a>
+    <button class="nav__burger" id="burger" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__inner reveal">
+      <span class="hero__mark"><svg viewBox="0 0 64 64" width="64" height="64"><use href="#grove-mark"/></svg></span>
+      <p class="hero__eyebrow">의미 있는 모임이 모여, 따뜻한 변화를 만든다</p>
+      <h1 class="hero__title">작은 그로브가 모여<br /><span class="hl">의미 있는 숲</span>이 된다.</h1>
+      <p class="hero__sub">소셜그로브는 나노 커뮤니티 트렌드에 맞춘<br class="br-m" /> 함께 만들고 연결되는 <b>참여형 소셜 플랫폼</b>입니다.</p>
+      <div class="hero__actions">
+        <a href="programs.html" class="btn btn--primary">그로브 둘러보기<svg class="ic"><use href="#ic-arrow"/></svg></a>
+        <a href="about.html" class="btn btn--ghost">소셜그로브가 뭐예요?</a>
+      </div>
+      <ul class="hero__keywords">
+        <li><svg class="ic"><use href="#ic-people"/></svg> 소수와 깊이 연결</li>
+        <li><svg class="ic"><use href="#ic-make"/></svg> 함께 만들고 경험</li>
+        <li><svg class="ic"><use href="#ic-chat"/></svg> 취향을 공유</li>
+        <li><svg class="ic"><use href="#ic-heart"/></svg> 수익 일부 기부</li>
+      </ul>
+    </div>
+    <a href="#intro" class="hero__scroll" aria-label="아래로"><span></span></a>
+  </section>
+
+  <!-- INTRO -->
+  <section class="section intro" id="intro">
+    <div class="container intro__grid reveal">
+      <div>
+        <p class="kicker">Welcome</p>
+        <h2 class="title">의미 없는 모임은<br />이제 그만.</h2>
+        <div class="intro__story">
+          <p>혼자 있는 시간이 많아진 요즘, 진짜 의미 있는 모임을 찾는 사람들이 늘고 있어요. <b>소셜그로브는 그런 사람들을 위한 모임</b>입니다.</p>
+          <p>단순히 얼굴을 마주하는 게 아니라, 함께 손으로 무언가를 만들며 이야기를 나누고, 취향을 공유하고, 작은 성취감을 함께 느낍니다.</p>
+        </div>
+      </div>
+      <div class="intro__media">
+        <img class="photo" src="assets/about-craft.jpg" alt="여럿이 둘러앉아 손으로 함께 무언가를 만드는 소셜그로브 모임" />
+        <span class="photo-cap">“하나는 내가, 하나는 우리 마음을 담아 기부해요.” <em style="font-style:normal;color:var(--sage)">(선택)</em></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION INDEX (메뉴별 개별 페이지로 이동) -->
+  <section class="section nav-cards" style="padding-top:0">
+    <div class="container reveal">
+      <p class="kicker center">Explore</p>
+      <h2 class="title center">무엇이 궁금하세요?</h2>
+      <p class="lead center">각 메뉴에서 소셜그로브를 더 깊이 들여다볼 수 있어요.</p>
+      <div class="nav-cards__grid">
+        <a class="nc" href="about.html">
+          <div class="nc__ic"><svg class="ic ic--lg"><use href="#ic-leaf"/></svg></div>
+          <span class="nc__no">01</span>
+          <h3>About us</h3>
+          <p>왜 모였고, 무엇을 만드는 사람들인지.</p>
+          <span class="alink">자세히 보기<svg class="ic"><use href="#ic-arrow"/></svg></span>
+        </a>
+        <a class="nc" href="vision.html">
+          <div class="nc__ic"><svg class="ic ic--lg"><use href="#ic-host"/></svg></div>
+          <span class="nc__no">02</span>
+          <h3>비전</h3>
+          <p>누구나 호스트가 되는 모임을 향해.</p>
+          <span class="alink">자세히 보기<svg class="ic"><use href="#ic-arrow"/></svg></span>
+        </a>
+        <a class="nc" href="values.html">
+          <div class="nc__ic"><svg class="ic ic--lg"><use href="#ic-heart"/></svg></div>
+          <span class="nc__no">03</span>
+          <h3>가치</h3>
+          <p>우리가 지키는 네 가지 약속.</p>
+          <span class="alink">자세히 보기<svg class="ic"><use href="#ic-arrow"/></svg></span>
+        </a>
+        <a class="nc" href="programs.html">
+          <div class="nc__ic"><svg class="ic ic--lg"><use href="#ic-make"/></svg></div>
+          <span class="nc__no">04</span>
+          <h3>프로그램</h3>
+          <p>지금 열려 있는 그로브들.</p>
+          <span class="alink">자세히 보기<svg class="ic"><use href="#ic-arrow"/></svg></span>
+        </a>
+        <a class="nc" href="archive.html">
+          <div class="nc__ic"><svg class="ic ic--lg"><use href="#ic-tree"/></svg></div>
+          <span class="nc__no">05</span>
+          <h3>아카이브</h3>
+          <p>지나간 그로브의 기록.</p>
+          <span class="alink">자세히 보기<svg class="ic"><use href="#ic-arrow"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DONATE BAND -->
+  <section class="section donate-band">
+    <div class="container donate-band__inner reveal">
+      <div>
+        <p class="kicker light">소셜그로브의 약속</p>
+        <h2>모임의 즐거움이,<br /><span class="handw">누군가에겐 따뜻한 변화가 되도록.</span></h2>
+        <p>소셜링에서 생긴 수익의 일부는 늘 기부로 이어집니다. 만든 결과물 하나는 내가, 하나는 마음을 담아 기부처에 전해요. <em style="color:var(--sage)">(선택)</em></p>
+        <a href="values.html" class="alink" style="color:#cfe6a8;border-color:transparent;margin-top:10px">기부가 이뤄지는 방식 보기<svg class="ic"><use href="#ic-arrow"/></svg></a>
+      </div>
+      <div class="donate-stat">
+        <strong>일부 수익</strong>
+        <span>기부로 이어지는 모임</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOIN -->
+  <section class="join" id="join">
+    <div class="container join__inner reveal">
+      <p class="kicker center">함께해요</p>
+      <h2 class="join__title">다음 그로브에서,<br /><span class="hl">당신</span>을 기다릴게요.</h2>
+      <p class="join__sub">의미 있는 모임이 모여, 따뜻한 변화를 만듭니다.</p>
+      <form class="join__form" onsubmit="return SG.submit(event)">
+        <input type="text" placeholder="이름" aria-label="이름" required />
+        <input type="email" placeholder="이메일 주소" aria-label="이메일" required />
+        <button type="submit" class="btn btn--primary">모임 알림 받기</button>
+      </form>
+      <p class="join__note" id="joinNote">참여 신청 시 가장 가까운 그로브 소식을 보내드려요.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__logo nav__logo--light"><svg viewBox="0 0 64 64" width="40" height="40"><use href="#grove-mark"/></svg></span>
+        <div>
+          <strong>Social Grove</strong><em>소셜그로브</em>
+          <p>함께 만들고, 이야기하고, 연결되는 의미 있는 모임</p>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>둘러보기</h4>
+        <a href="about.html">About us</a>
+        <a href="vision.html">비전</a>
+        <a href="values.html">가치</a>
+        <a href="programs.html">프로그램</a>
+        <a href="archive.html">아카이브</a>
+      </div>
+      <div class="footer__col">
+        <h4>참여</h4>
+        <a href="index.html#join">모임 참여하기</a>
+        <a href="programs.html">그로브 호스트 되기</a>
+        <a href="values.html">기부 이야기</a>
+      </div>
+      <div class="footer__col">
+        <h4>연결</h4>
+        <a href="#">Instagram</a>
+        <a href="#">KakaoTalk</a>
+        <a href="mailto:hello@socialgrove.kr">hello@socialgrove.kr</a>
+      </div>
+    </div>
+    <p class="footer__copy">© 2026 Social Grove · 작은 그로브가 모여 의미 있는 숲이 된다.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

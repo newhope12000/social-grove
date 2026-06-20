@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>아카이브 · 소셜그로브</title>
+  <meta name="description" content="지나간 그로브의 기록. 우리가 함께 만든 작은 순간들이 모여 의미 있는 숲이 됩니다." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="index.html" aria-label="소셜그로브 홈">
+      <span class="nav__logo"><svg viewBox="0 0 64 64" width="34" height="34"><use href="#grove-mark"/></svg></span>
+      <span class="nav__name"><strong>Social Grove</strong><em>소셜그로브</em></span>
+    </a>
+    <nav class="nav__menu" id="navMenu" aria-label="주요 메뉴">
+      <a href="about.html">About us</a>
+      <a href="vision.html">비전</a>
+      <a href="values.html">가치</a>
+      <a href="programs.html">프로그램</a>
+      <a href="archive.html" class="active">아카이브</a>
+      <a href="index.html#join" class="btn btn--pill nav__cta-m">모임 참여하기</a>
+    </nav>
+    <a href="index.html#join" class="btn btn--pill nav__cta">모임 참여하기</a>
+    <button class="nav__burger" id="burger" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+
+  <section class="page-header">
+    <div class="container reveal">
+      <p class="crumb"><a href="index.html">Home</a><span>/</span>아카이브</p>
+      <h1 class="title">지나간 그로브의 기록</h1>
+      <p class="lead">우리가 함께 만든 작은 순간들이 모여 숲이 됩니다.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section archive-dark" style="background:var(--grove);color:#fff;padding-top:56px">
+    <div class="container reveal">
+      <div class="gallery">
+        <figure class="gtile" style="--c:#7c9a6a;background-image:url('assets/plant.jpg')">
+          <span class="gtile__cat">MAKE</span>
+          <h3>식물 그로브 12회차</h3><p>2026 · 3월 · 함께 키운 화분 6개</p>
+        </figure>
+        <figure class="gtile tall" style="--c:#c98a63;background-image:url('assets/candle.jpg')">
+          <span class="gtile__cat">MAKE</span>
+          <h3>캔들 그로브 나이트</h3><p>2026 · 4월 · 각자의 향을 담은 밤</p>
+        </figure>
+        <figure class="gtile" style="--c:#8b9bb5;background-image:url('assets/friends.jpg')">
+          <span class="gtile__cat">TALK</span>
+          <h3>취향 토크 #08</h3><p>2026 · 4월 · 다섯 사람의 깊은 대화</p>
+        </figure>
+        <figure class="gtile" style="--c:#a3795f;background-image:url('assets/drawing.jpg')">
+          <span class="gtile__cat">MAKE</span>
+          <h3>드로잉 데이</h3><p>2026 · 5월 · 잘 못 그려도 즐거운 하루</p>
+        </figure>
+        <figure class="gtile tall" style="--c:#6b8e5a;background-image:url('assets/about-craft.jpg')">
+          <span class="gtile__cat">GIVING</span>
+          <h3>기부 전달식</h3><p>2026 · 5월 · 모인 마음을 전한 날</p>
+        </figure>
+        <figure class="gtile" style="--c:#b58a5e;background-image:url('assets/group-paint.jpg')">
+          <span class="gtile__cat">EVENT</span>
+          <h3>그로브 플리마켓</h3><p>2026 · 6월 · 그로브가 모인 하루</p>
+        </figure>
+      </div>
+
+      <div class="stats">
+        <div><strong data-to="48">0</strong><span>열린 그로브</span></div>
+        <div><strong data-to="320">0</strong><span>함께한 사람들</span></div>
+        <div><strong data-to="100" data-suffix="%">0</strong><span>기부로 이어진 마음</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="join">
+    <div class="container join__inner reveal">
+      <p class="kicker center">Next Grove</p>
+      <h2 class="join__title">다음 기록의 주인공은,<br /><span class="hl">당신</span>이에요.</h2>
+      <p class="join__sub">가장 가까운 그로브에서 함께해요.</p>
+      <div style="margin-top:30px">
+        <a href="programs.html" class="btn btn--primary">열려 있는 그로브 보기<svg class="ic"><use href="#ic-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__logo nav__logo--light"><svg viewBox="0 0 64 64" width="40" height="40"><use href="#grove-mark"/></svg></span>
+        <div><strong>Social Grove</strong><em>소셜그로브</em><p>함께 만들고, 이야기하고, 연결되는 의미 있는 모임</p></div>
+      </div>
+      <div class="footer__col"><h4>둘러보기</h4>
+        <a href="about.html">About us</a><a href="vision.html">비전</a><a href="values.html">가치</a><a href="programs.html">프로그램</a><a href="archive.html">아카이브</a>
+      </div>
+      <div class="footer__col"><h4>참여</h4>
+        <a href="index.html#join">모임 참여하기</a><a href="programs.html">그로브 호스트 되기</a><a href="values.html">기부 이야기</a>
+      </div>
+      <div class="footer__col"><h4>연결</h4>
+        <a href="#">Instagram</a><a href="#">KakaoTalk</a><a href="mailto:hello@socialgrove.kr">hello@socialgrove.kr</a>
+      </div>
+    </div>
+    <p class="footer__copy">© 2026 Social Grove · 작은 그로브가 모여 의미 있는 숲이 된다.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
